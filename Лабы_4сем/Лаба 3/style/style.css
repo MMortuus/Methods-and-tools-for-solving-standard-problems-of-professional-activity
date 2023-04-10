@@ -1,0 +1,42 @@
+body
+{
+    color: #0c747e;
+    background-color: #CAFF6A;
+}
+
+.bodycl
+{
+    margin: 50px auto;
+    max-width: 300px;
+    font-size: 18px;
+}
+
+.class1
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.class1 input
+{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+}
+
+.question select
+{
+    margin-bottom: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    /* border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 2px; */
+}

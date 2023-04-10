@@ -1,0 +1,79 @@
+body
+{
+    background-color: rgb(255, 253, 107);
+}
+
+.tran1
+{
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 2px solid #CAFF6A;
+    border-radius: 6px;
+    padding: 10px 0 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 2s ease;
+}
+
+.tran1:hover
+{
+    background-color: #CAFF6A;
+    color: #0c747e;
+}
+
+.tran2
+{
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 2px solid #CAFF6A;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 10px 0 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: border 1s ease, color 1.5s ease, font 1.5s ease, background-color 2s ease;
+}
+
+.tran2:hover
+{
+    background-color: #CAFF6A;
+    color: #0c747e;
+    font: italic 16px COMIC SANS MS;
+    border: 4px solid rgb(255, 125, 125);
+}
+
+.tran3
+{
+    width: 380px;
+    height: 55px;
+    margin: auto;
+    margin-bottom: 100px;
+    border: 2px solid #CAFF6A;
+    border-style: dashed;
+    border-radius: 6px;
+    padding: 10px 0 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+
+.tran3:hover
+{
+    background-color: #CAFF6A;
+    color: #0c747e;
+    border-style: solid;
+    border-radius: 28px;
+    font: italic 16px COMIC SANS MS;
+    border: 4px solid rgb(255, 103, 103);
+    scale: 2;
+}

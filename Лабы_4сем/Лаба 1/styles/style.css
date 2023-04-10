@@ -1,0 +1,31 @@
+body
+{
+    background-image: url(../img/background.jpg);
+}
+
+.opisanie
+{
+    color: aqua;
+}
+
+.pfp
+{
+    margin: auto 35px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+.my
+{
+    margin: 10px;
+    color: magenta;
+    text-align: center;
+}
+.your
+{
+    margin: 10px;
+    color: magenta;
+    text-align: center;
+}
